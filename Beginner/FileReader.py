@@ -1,0 +1,5 @@
+file_name=input("Entrt the file name")
+file_name=file_name.strip()
+file=open(file_name,"r+")
+print(file.read())
+file.close()
